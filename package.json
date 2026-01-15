@@ -1,0 +1,27 @@
+{
+	"name": "av40",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"postinstall": "npx markdown-it ./partials/content.md > ./partials/content.html",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.19",
+		"@tailwindcss/vite": "^4.1.18",
+		"@types/flickity": "^2.2.11",
+		"@types/node": "^25.0.8",
+		"markdown-it": "^14.1.0",
+		"prettier-plugin-tailwindcss": "^0.7.2",
+		"tailwindcss": "^4.1.18",
+		"typescript": "~5.9.3",
+		"vite": "^7.2.4",
+		"vite-plugin-handlebars": "^2.0.0"
+	},
+	"dependencies": {
+		"flickity": "^3.0.0"
+	}
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+	--color-primary: #e7303d;
+}
+
+@font-face {
+	font-family: "Univers LT Pro 55";
+	src:
+		url("UniversLTPro-55Roman.woff2") format("woff2"),
+		url("UniversLTPro-55Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Univers LT Pro 55", sans-serif;
+	font-style: normal;
+	counter-reset: prose-headings;
+}
+
+.prose h3::before {
+	counter-increment: prose-headings;
+	content: counter(prose-headings) ". ";
+}
+
+[data-slider] img {
+	display: none;
+}
+
+[data-slider] img:first-child,
+[data-slider="initialized"] img {
+	display: unset;
+}
+
+.flickity-viewport {
+	transition: height 200ms ease-in-out;
+	transition-delay: 300ms;
+}
