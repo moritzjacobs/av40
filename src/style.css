@@ -2,23 +2,17 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-	--color-primary: #e7303d;
-	--aspect-custom: 24 / 19; /* chosen by fair dice roll */
-}
-
-@font-face {
-	font-family: "Univers LT Pro 55";
-	src:
-		url("UniversLTPro-55Roman.woff2") format("woff2"),
-		url("UniversLTPro-55Roman.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+	--color-fgcolor: #e7303d;
+	--color-bgcolor: #f9f9f1;
+	--aspect-custom: 24 / 17; /* chosen by fair dice roll */
 }
 
 body {
-	font-family: "Univers LT Pro 55", sans-serif;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
 	font-style: normal;
+	font-variation-settings: "wdth" 100;
 	counter-reset: prose-headings;
 }
 

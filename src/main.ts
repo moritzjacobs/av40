@@ -10,7 +10,7 @@ const main = () => {
 	new Flickity(el, {
 		imagesLoaded: true,
 		wrapAround: true,
-		adaptiveHeight: true,
+		resize: true,
 		pageDots: false,
 		autoPlay: 3000,
 		prevNextButtons: false,

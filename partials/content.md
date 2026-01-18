@@ -7,8 +7,8 @@
 
 ### Was wünscht ihr euch zum Geburtstag?
 
-**Mo:** Ein kleiner Beitrag für die Midlife-Crisis-Kasse wäre schön.  
-**Scho:** ... oder ihr spendet was für die Menschen in der Ukraine, z.b. [hier](https://www.uno-fluechtlingshilfe.de/spenden-ukraine)
+**Mo:** Ein kleiner Beitrag für die Midlife-Crisis-Kasse wäre schön. Ich hab da so nen Laden gemietet…  
+**Scho:** … oder ihr spendet was für die Menschen in der Ukraine, z.b. [bei der UNO Flüchtlingshilfe](https://www.uno-fluechtlingshilfe.de/spenden-ukraine)
 
 ### Was sollen wir anziehen? Dresscode?
 
@@ -74,3 +74,9 @@
 
 **Mo:** Kriegsdienstverweigerer.  
 **Scho:** azubi von tiesto (laut mo).
+
+---
+
+## Noch Fragen?
+
+[Frag halt.](mailto:abow@av40.epilectric.net)
