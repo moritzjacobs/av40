@@ -3,6 +3,7 @@
 
 @theme {
 	--color-primary: #e7303d;
+	--aspect-custom: 24 / 19; /* chosen by fair dice roll */
 }
 
 @font-face {
@@ -21,9 +22,13 @@ body {
 	counter-reset: prose-headings;
 }
 
+.prose h2::before {
+	content: "⌘ ";
+}
+
 .prose h3::before {
 	counter-increment: prose-headings;
-	content: counter(prose-headings) ". ";
+	content: "¶ " counter(prose-headings) ". ";
 }
 
 [data-slider] img {
