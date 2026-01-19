@@ -25,3 +25,17 @@ body {
 	counter-increment: prose-headings;
 	content: "¶ " counter(prose-headings) ". ";
 }
+
+.flickity-viewport {
+	transition: height 200ms ease-in-out;
+	transition-delay: 200ms;
+}
+
+[data-slider] .flickity-page-dot {
+	background: white;
+}
+
+[data-slider] .flickity-page-dot.is-selected {
+	background: transparent;
+	border: 2px solid white;
+}

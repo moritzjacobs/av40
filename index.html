@@ -16,8 +16,8 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body class="bg-bgcolor flex min-w-sm justify-end lowercase">
-		<div class="m-auto w-full max-w-3xl pb-12">
+	<body class="bg-bgcolor min-w-sm lowercase">
+		<div class="m-auto w-full max-w-3xl">
 			<header
 				class="bg-fgcolor flex aspect-square flex-col flex-nowrap justify-around px-4 text-white md:mt-12 md:px-16 lg:mt-24 lg:rounded-sm"
 			>
@@ -34,13 +34,13 @@
 					class="aspect-custom overflow-hidden rounded-xs"
 				>
 					<img
-						src="av40_1.jpg"
+						src="/landscape/av40_1.jpg"
 						class="aspect-custom block h-full w-full object-cover"
 						alt=""
 					/>
 					{{#range 2 11}}
 					<img
-						src="av40_{{this}}.jpg"
+						src="/landscape/av40_{{this}}.jpg"
 						class="aspect-custom block h-auto w-full object-cover"
 						alt=""
 					/>
@@ -104,6 +104,26 @@
 				{{> content }}
 			</main>
 		</div>
+
+		<footer>
+			<img
+				src="/footer.png"
+				class="m-auto mt-12 block h-auto w-full max-w-lg lg:mt-24"
+				alt=""
+			/>
+			<div class="bg-fgcolor pt-4 pb-10 sm:pt-12 lg:py-24">
+				<div data-slider='{"pageDots": true}' class="h-[50vh]">
+					{{#range 1 7}}
+					<img
+						src="/portrait/av40_{{this}}.jpg"
+						class="mr-4 block h-full w-auto"
+						alt=""
+					/>
+					{{/range}}
+				</div>
+			</div>
+		</footer>
+
 		<script type="module" src="/src/main.ts"></script>
 	</body>
 </html>

@@ -38,9 +38,9 @@ Alles was tanzbar ist und wir gut finden, elektronisch, funky, groovy, steppy, h
 **Scho:** Im Orkus von Corona gelandet.…
 **Mo:** \_(ツ)\_/Doch doch, keine Sorge.
 
-### Was sind das eigentlich für Fotos da oben?
+### Was sind das eigentlich für Fotos da oben (und unten)?
 
-**Mo:** Schnappschüsse aus den ersten paarundzwanzig Jahren audio:vomit, 2004–2007.  
+**Mo:** Schnappschüsse und Flyer aus den ersten paarundzwanzig Jahren audio:vomit, 2004–2007.  
 **Scho:** Danke auch an Sandra für das Fotoshooting 2004!
 
 ### Wie ernst nehmt ihr die FAQs?
