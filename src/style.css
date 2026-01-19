@@ -2,9 +2,10 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
+	--breakpoint-xs: 30rem;
 	--color-fgcolor: #e7303d;
-	--color-bgcolor: #f9f9f1;
-	--aspect-custom: 24 / 17; /* chosen by fair dice roll */
+	--color-bgcolor: #f9f9e9;
+	--aspect-custom: 4 / 3;
 }
 
 body {
@@ -23,18 +24,4 @@ body {
 .prose h3::before {
 	counter-increment: prose-headings;
 	content: "¶ " counter(prose-headings) ". ";
-}
-
-[data-slider] img {
-	display: none;
-}
-
-[data-slider] img:first-child,
-[data-slider="initialized"] img {
-	display: unset;
-}
-
-.flickity-viewport {
-	transition: height 200ms ease-in-out;
-	transition-delay: 300ms;
 }

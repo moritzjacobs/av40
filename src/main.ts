@@ -2,24 +2,26 @@ import "./style.css";
 import "flickity/css/flickity.css";
 import Flickity from "flickity";
 
-const main = () => {
-	const el = document.querySelector("[data-slider]") as HTMLElement | null;
+let slider: Flickity | null = null;
 
-	if (!el) return;
+const startSlider = (el: HTMLElement) => {
+	if (slider) slider.destroy();
 
-	new Flickity(el, {
+	slider = new Flickity(el, {
 		imagesLoaded: true,
 		wrapAround: true,
-		resize: true,
 		pageDots: false,
 		autoPlay: 3000,
 		prevNextButtons: false,
-		on: {
-			ready: function () {
-				el.dataset.slider = "initialized";
-			},
-		},
 	});
 };
 
-main();
+const init = () => {
+	const el = document.querySelector("[data-slider]") as HTMLElement | null;
+	if (!el) return;
+	startSlider(el);
+
+	window.addEventListener("resize", () => startSlider(el));
+};
+
+init();
