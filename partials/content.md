@@ -12,48 +12,41 @@
 
 ### Was sollen wir anziehen? Dresscode?
 
-**Scho:** ihr seht so oder so super aus.  
+**Scho:** Ihr seht super aus, so oder so.  
 **Mo:** Alles, was dich nicht beim Breakdance behindert, ist für mich fein.
 
-### Kommen wir gespeist oder hungrig?
+### Gibt's was zu Essen?
 
-**Scho:** …  
-**Mo:** Mir egal, aber auf leeren Magen ist nicht gut Trinken. Wir stellen jedenfalls nur was zu Knabbern hin.
+Nö, nur zu knabbern.
 
 ### Was für Musik erwartet mich?
 
-**Scho:** …  
-**Mo:** Alles was tanzbar ist und wir gut finden, elektronisch, funky, groovy, steppy, happy.
+Alles was tanzbar ist und wir gut finden, elektronisch, funky, groovy, steppy, happy.
 
-### Was zur Hölle ist "audio:vomit", klingt irgendwie eklig?
+### Was zur Hölle ist "audio:vomit", das klingt … irgendwie … eklig?
 
 **Scho:** Unter dem Namen haben wir vor rund 20 Jahren zusammen aufgelegt.  
-**Mo:** Jeder für sich hatte drei Dutzend verschiedene DJ-Namen, aber der "Crewname" ist irgendwie immer geblieben.
+**Mo:** Jeder für sich hatte drölfunddreißig verschiedene DJ-Namen, aber der "Crewname" ist irgendwie immer geblieben.
 
 ### Wer von euch ist der audio und wer der vomit?
 
 **Scho:** …  
 **Mo:** …
 
-### Wie, ihr seid schon vierzig? Das sieht man euch gar nicht an\!
+### Wie, ihr seid schon vierzig? Wo sind die Jahre hin? Das sieht man euch gar nicht an!
 
-**Scho:** …  
-**Mo:** Doch doch, keine Sorge.
+**Scho:** Im Orkus von Corona gelandet.…
+**Mo:** \_(ツ)\_/Doch doch, keine Sorge.
 
-### Was sind das eigentlich für fotos da oben?
+### Was sind das eigentlich für Fotos da oben?
 
 **Mo:** Schnappschüsse aus den ersten paarundzwanzig Jahren audio:vomit, 2004–2007.  
 **Scho:** Danke auch an Sandra für das Fotoshooting 2004!
 
-### Wie ernst nehmt ihr FAQs?
+### Wie ernst nehmt ihr die FAQs?
 
-**Scho:** …  
+**Scho:** Öh.  
 **Mo:** Ja.
-
-### Ich kann aber nur bis um zehn, weil am nächsten Morgen muss mein Meerschwein zum Zahnarzt.
-
-**Scho:** Verschieb den Termin.  
-**Mo:** Wieso, glaubst du es pfeift?
 
 ### Großstadt oder small town boy?
 
@@ -75,8 +68,13 @@
 **Mo:** Kriegsdienstverweigerer.  
 **Scho:** azubi von tiesto (laut mo).
 
+### Immer noch PIC-Schmerz?
+
+**Scho:** Schnüff.  
+**Mo:** 🥲
+
 ---
 
 ## Noch Fragen?
 
-[Frag halt.](mailto:av40@jacobs.email)
+[Bei Fragen, bitte fragen.](mailto:av40@jacobs.email)
