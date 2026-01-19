@@ -79,4 +79,4 @@
 
 ## Noch Fragen?
 
-[Frag halt.](mailto:abow@av40.epilectric.net)
+[Frag halt.](mailto:av40@jacobs.email)
