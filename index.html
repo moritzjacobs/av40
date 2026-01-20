@@ -38,7 +38,7 @@
 						class="aspect-custom block h-full w-full object-cover"
 						alt=""
 					/>
-					{{#range 2 11}}
+					{{#range 2 15}}
 					<img
 						src="/landscape/av40_{{this}}.jpg"
 						class="aspect-custom block h-auto w-full object-cover"
@@ -113,15 +113,10 @@
 			/>
 			<div class="bg-fgcolor pt-4 pb-10 sm:pt-12 lg:py-24">
 				<div data-slider='{"pageDots": true}' class="h-[50vh]">
-					{{#range 1 7}}
+					{{#range 1 8}}
 					<img
 						src="/portrait/av40_{{this}}.jpg"
-						class="mr-4 block h-full w-auto"
-						alt=""
-					/>
-					<img
-						src="/landscape/av40_{{this}}.jpg"
-						class="mr-4 block h-full w-auto"
+						class="mr-4 block h-full w-auto max-w-none"
 						alt=""
 					/>
 					{{/range}}

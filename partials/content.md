@@ -33,10 +33,10 @@ Alles was tanzbar ist und wir gut finden, elektronisch, funky, groovy, steppy, h
 **Scho:** …  
 **Mo:** …
 
-### Wie, ihr seid schon vierzig? Wo sind die Jahre hin? Das sieht man euch gar nicht an!
+### Wie, ihr seid schon vierzig? Wo sind die Jahre hin?
 
-**Scho:** Im Orkus von Corona gelandet.…
-**Mo:** \_(ツ)\_/Doch doch, keine Sorge.
+**Scho:** Im Orkus von Corona gelandet.…  
+**Mo:** \\\_(ツ)\_/
 
 ### Was sind das eigentlich für Fotos da oben (und unten)?
 
