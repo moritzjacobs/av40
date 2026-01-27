@@ -24,5 +24,9 @@ const makeSlider = (el: HTMLElement) => {
 	});
 };
 
-const els = document.querySelectorAll("[data-slider]");
-[...els].filter((el) => el instanceof HTMLElement).map(makeSlider);
+window.addEventListener("load", () => {
+	setTimeout(() => {
+		const els = document.querySelectorAll("[data-slider]");
+		[...els].filter((el) => el instanceof HTMLElement).map(makeSlider);
+	}, 2000);
+});

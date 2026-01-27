@@ -7,14 +7,14 @@
 	--color-bgcolor: #f9f9e9;
 	--aspect-custom: 4 / 3;
 
-	--animate-swing: swing 1s ease-in-out infinite;
+	--animate-swing: swing 7s ease-in-out infinite;
 	@keyframes swing {
 		0%,
 		100% {
-			transform: rotate(-3deg);
+			transform: rotate(-2deg);
 		}
 		50% {
-			transform: rotate(3deg);
+			transform: rotate(2deg);
 		}
 	}
 }
