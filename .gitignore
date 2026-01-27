@@ -1,4 +1,4 @@
-partials/*.html
+partials/content.html
 
 # Logs
 logs

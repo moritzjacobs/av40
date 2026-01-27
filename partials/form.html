@@ -1,0 +1,89 @@
+<aside
+	class="bg-fgcolor outline-fgcolor shadow-fgcolor relative my-8 flex flex-col gap-8 p-8 text-white md:rounded-sm"
+>
+	<div
+		class="prose prose-lg prose-stone prose-a:text-white prose-headings:text-white text-white"
+	>
+		<h2>RSVP</h2>
+
+		<p>
+			Wenn ihr uns kurz Bescheid geben könnt, ob ihr kommt, das wär' toll
+			für unsere Planung! Gerne hier oder auch per
+			<a href="mailto:av40@jacobs.email">E-Mail</a> oder halt wo ihr uns
+			sonst so schreibt!
+		</p>
+	</div>
+
+	<form
+		data-rsvp
+		method="POST"
+		action="https://forms.epilectric.net/rsvp.php"
+	>
+		<div class="flex flex-col gap-8">
+			<fieldset class="contents gap-8 md:flex">
+				<label class="flex flex-1 flex-col gap-1">
+					Name *
+					<input
+						placeholder="Paula Platzhalter"
+						class="outline-bgcolor border-fgcolor border-2 bg-white p-1 text-black outline-2 focus:border-blue-500 focus:outline-white"
+						name="name"
+						type="text"
+						required
+					/>
+				</label>
+				<label class="flex flex-1 flex-col gap-1">
+					Email *
+					<input
+						placeholder="paula@beispiel.yolo"
+						class="outline-bgcolor border-fgcolor border-2 bg-white p-1 text-black outline-2 focus:border-blue-500 focus:outline-white"
+						name="email"
+						type="test"
+						required
+					/>
+				</label>
+			</fieldset>
+
+			<fieldset class="flex flex-col">
+				<label
+					class="align-middle outline-blue-200 focus-within:underline"
+				>
+					<input
+						class="sr-only"
+						type="radio"
+						name="rsvp"
+						value="false"
+						checked
+					/>
+					Ich/wir kommen!
+				</label>
+
+				<label
+					class="align-middle outline-blue-200 focus-within:underline"
+				>
+					<input
+						class="sr-only"
+						type="radio"
+						name="rsvp"
+						value="true"
+					/>
+					Ich/wir kommen leider nicht!
+				</label>
+			</fieldset>
+
+			<button
+				type="submit"
+				class="bg-fgcolor outline-fgcolor hover:bg-bgcolor hover:text-fgcolor focus:bg-bgcolor focus:text-fgcolor flex min-h-12 items-center justify-center rounded-full border-2 border-white transition-colors"
+			>
+				absenden
+			</button>
+		</div>
+	</form>
+	<img
+		alt=""
+		aria-hidden="true"
+		src="klinke.svg"
+		width="240"
+		height="104"
+		class="animate-swing sr-only absolute top-full right-0 -z-10 scale-75 rotate-90"
+	/>
+</aside>

@@ -6,6 +6,17 @@
 	--color-fgcolor: #e7303d;
 	--color-bgcolor: #f9f9e9;
 	--aspect-custom: 4 / 3;
+
+	--animate-swing: swing 1s ease-in-out infinite;
+	@keyframes swing {
+		0%,
+		100% {
+			transform: rotate(-3deg);
+		}
+		50% {
+			transform: rotate(3deg);
+		}
+	}
 }
 
 body {
@@ -38,4 +49,41 @@ body {
 [data-slider] .flickity-page-dot.is-selected {
 	background: transparent;
 	border: 2px solid white;
+}
+
+[data-rsvp] button {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+[data-rsvp="valid"] button {
+	cursor: pointer;
+	opacity: 1;
+}
+
+label:has(input[type="radio"]) {
+	position: relative;
+	padding-left: 1.4em;
+}
+
+label:has(input[type="radio"])::before,
+label:has(input[type="radio"])::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateY(33%);
+	width: 1em;
+	height: 1em;
+	content: "";
+	border: 2px solid white;
+	border-radius: 100%;
+}
+
+label:has(input[type="radio"]:checked)::after {
+	width: 0.5em;
+	height: 0.5em;
+	top: 0.58em;
+	left: 0.25em;
+	transform: translateY(0);
+	background-color: white;
 }

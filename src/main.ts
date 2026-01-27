@@ -1,4 +1,5 @@
 import "./style.css";
+import "./rsvp";
 import "flickity/css/flickity.css";
 import Flickity from "flickity";
 
