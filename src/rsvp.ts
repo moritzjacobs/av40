@@ -25,6 +25,7 @@ const prepareForm = (el: Element) => {
 				email: z.email(),
 				name: z.string(),
 				rsvp: z.coerce.boolean(),
+				message: z.string(),
 			})
 			.parse(raw);
 	};

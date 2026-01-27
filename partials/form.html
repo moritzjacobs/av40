@@ -19,7 +19,7 @@
 		method="POST"
 		action="https://forms.epilectric.net/rsvp.php"
 	>
-		<div class="flex flex-col gap-4">
+		<div class="flex flex-col gap-6">
 			<fieldset class="contents gap-8 md:flex">
 				<label class="flex flex-1 flex-col gap-1">
 					Name *
@@ -69,6 +69,15 @@
 					Ich/wir kommen leider nicht!
 				</label>
 			</fieldset>
+
+			<label class="flex flex-col gap-2">
+				Was ich noch sagen wollte
+				<textarea
+					class="text-fgcolor min-h-20 w-full bg-white p-4"
+					name="message"
+					placeholder="…"
+				></textarea>
+			</label>
 
 			<button
 				type="submit"
