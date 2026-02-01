@@ -25,7 +25,9 @@ Nö, nur zu knabbern.
 
 ### Was für Musik erwartet mich?
 
-Alles was tanzbar ist und wir gut finden, elektronisch, funky, groovy, steppy, happy.
+[Alles was tanzbar ist und wir gut finden, elektronisch, funky, groovy, steppy, happy.](https://open.spotify.com/playlist/1CC3vsjbnK6EwntEe58wdn?si=EIG_3xJGRTeHIGn39uzztw)
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1CC3vsjbnK6EwntEe58wdn?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### Was zur Hölle ist "audio:vomit", das klingt … irgendwie … eklig?
 
