@@ -24,7 +24,7 @@ const prepareForm = (el: Element) => {
 			.object({
 				email: z.email(),
 				name: z.string(),
-				rsvp: z.coerce.boolean(),
+				rsvp: z.enum(["Zusage", "Absage"]),
 				message: z.string(),
 			})
 			.parse(raw);
