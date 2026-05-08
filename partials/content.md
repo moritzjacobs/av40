@@ -1,9 +1,5 @@
 ## FAQ
 
-### Ja, wo feiert ihr denn?
-
-Um das definitiv zu erfahren, solltest du oben stehendes Formular ausfüllen, dann schicken wir dir die Details zu.
-
 ### Hä, ihr habt doch im Februar Geburtstag?
 
 **Scho:** Ja, aber im Februar ist es kalt.  
